@@ -3,7 +3,7 @@ import { invoke } from "@tauri-apps/api/tauri";
 import { Input } from "./components/ui/input";
 import { Button } from "./components/ui/button";
 import { toast } from "sonner";
-import AccountManager from "./components/accountManager";
+import AccountManager from "./components/account-manager";
 
 function App() {
     const [greetMsg, setGreetMsg] = useState("");
