@@ -38,6 +38,7 @@ export default function AccountRegistration() {
     });
 
     async function registerAccount(values) {
+        if (isLoading) return;
         setIsLoading(true);
         // Register agent
         const options = {
