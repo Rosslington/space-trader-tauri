@@ -44,9 +44,9 @@ export default function AccountListing({ account }) {
                     className="w-6 h-6 text-primary animate-spin"
                 />
             ) : (
-                <CircleUserRound className="w-6 h-6 text-zinc-500 group-hover:text-primary" />
+                <CircleUserRound className="w-6 h-6 text-zinc-500 group-hover:text-primary duration-100 transition-colors" />
             )}
-            <p className="font-medium text-zinc-200 group-hover:text-white">
+            <p className="font-medium text-zinc-300 group-hover:text-white duration-100 transition-colors">
                 {account.username}
             </p>
         </div>
